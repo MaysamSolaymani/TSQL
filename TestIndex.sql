@@ -1,5 +1,3 @@
---Hieu nang cua create INDEX
---Khong su dung INDEX
 DECLARE @TEST_PLAYER TABLE (ID int, MOST_PLAYER_ID int)
 DECLARE @Start int
 DECLARE @End int
@@ -21,7 +19,7 @@ SET @e = GETDATE()
 SELECT DATEDIFF(MILLISECOND,@i,@e)
 --253
 
---su dung index
+
 DECLARE @TEST_PLAYER TABLE(ID int INDEX Ix CLUSTERED, MOST_PLAYER_ID int)
 DECLARE @Start int
 DECLARE @End int

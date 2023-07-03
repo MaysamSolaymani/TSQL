@@ -13,5 +13,3 @@ EXEC sp_sqlexec @sql
 PRINT 'Select Successfully'
 END
 
-
---EXEC dbo.SelectWorkOrder 71,10

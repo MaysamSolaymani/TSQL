@@ -12,7 +12,7 @@
 USE [TestDB]
 GO
 
-/****** Object:  Table [dbo].[ConvertTextFile]    Script Date: 9/5/2017 5:38:19 PM ******/
+/****** Object:  Table [dbo].[ConvertTextFile]    Script Date: 3/7/2023 5:38:19 PM ******/
 SET ANSI_NULLS ON
 GO
 

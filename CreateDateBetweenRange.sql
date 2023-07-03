@@ -1,4 +1,4 @@
-USE KHANH_DB
+USE Maysam_DB
 DECLARE @dates TABLE (Dt datetime)
 DECLARE @dateFrom datetime
 DECLARE @dateTo datetime

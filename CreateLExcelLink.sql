@@ -8,7 +8,7 @@ DECLARE @location   nvarchar(4000)
 DECLARE @provstr    nvarchar(4000)
 DECLARE @catalog    nvarchar(128)
 
--- Set parameter values
+
 SET @server =     'EXCELLINK'
 SET @srvproduct = 'Excel'
 SET @provider =   'Microsoft.ACE.OLEDB.12.0'
