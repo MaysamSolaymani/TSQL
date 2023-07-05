@@ -1,10 +1,4 @@
-USE master
-GO
-
-CREATE DATABASE TEST
-GO
-
-USE TEST
+USE MaysamDB
 GO
 
 CREATE TABLE cities (
