@@ -7,7 +7,7 @@ GO
 
 SELECT        airports.name, cities.state, cities.city
 FROM            airports INNER JOIN
-                         cities ON airports.city_id = cities.id
+                         cities ON  airports.city_id = cities.id
 WHERE        (NOT (airports.name LIKE '%International%'))
 GO
 
