@@ -1,6 +1,7 @@
 /*The CREATE DATABASE statement is used to create a new SQL database.*/
 USE [master]
 GO
+    
 CREATE DATABASE MaysamDB
 
 USE [MaysamDB]
